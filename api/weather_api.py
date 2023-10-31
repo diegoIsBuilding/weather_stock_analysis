@@ -42,5 +42,13 @@ def get_weather_data(lat, lon):
         print('Failed to find forecast URL in metadata')
         return None
     
+    #Get the weather data
+    response = requests.get(forecast_url, headers = headers)
+    if response.status_code != 200:
+        print('Failed to get weather data:', response.text)
+        return None
     
+    weather_data = response.json()
+    return weather_data
+get_weather_data()
     
