@@ -8,12 +8,12 @@ import random
 import os
 import json
 
-def fetch_corn_belt_weather_data():
+def california_weather_data():
     url = [
         'https://www.weather.gov/wrh/climate?wfo=dmx',
         'May need to use the API to access historical data',
     ]
-    referer = 'https://www.weather.gov'
+    referer = 'Change in the project - focusing only on California weather'
     user_agents = [
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
