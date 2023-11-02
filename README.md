@@ -26,22 +26,22 @@ bash
 Copy code
 pip install -r requirements.txt
 Usage
-
+==
 To run the analysis, follow these steps:
 
 Data Collection: Run the scraper/weather_scraper.py and scraper/stock_scraper.py scripts to collect weather data and stock prices.
-bash
-Copy code
+
 python scraper/weather_scraper.py
 python scraper/stock_scraper.py
+==
 Data Analysis: Run the data_analysis/correlation_analysis.py script to perform correlation and regression analysis.
-bash
-Copy code
+
 python data_analysis/correlation_analysis.py
+==
 Visualization: Run the data_analysis/data_visualization.py script to generate visualizations of the data and results.
-bash
-Copy code
+
 python data_analysis/data_visualization.py
+==
 Results and Interpretation: View the generated visualizations in the frontend/templates/dashboard.html file for interpretations and conclusions.
 Project Structure
 

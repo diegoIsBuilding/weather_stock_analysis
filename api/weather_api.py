@@ -52,3 +52,5 @@ def get_weather_data(lat, lon):
     return weather_data
 get_weather_data()
     
+    
+'Research: New weather API to get california, arizona, and chile weather data for the past year - https://open-meteo.com/en/docs'
